@@ -25,7 +25,6 @@ public class LoginTest extends BaseTest {
         String actualString = ad.findElementByXPath("//android.view.ViewGroup[@content-desc=\"test-Cart drop zone\"]/android.view.ViewGroup/android.widget.TextView").getText();
         String expectedString = "PRODUCTS";
         Assert.assertEquals(actualString, expectedString);
-
     }
 
 }
